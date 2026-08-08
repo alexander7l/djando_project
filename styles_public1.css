@@ -1,0 +1,139 @@
+body { /* Propiedades heredades para todo el documento */
+    background-color: #121212;   /* Fondo oscuro principal */
+    color: #e0e0e0;              /* Texto general gris claro */
+    font-family: "Comic Neue", cursive; /* Font importada de google fonts */
+    line-height: 1.6; /* Espacio entre renglones */
+    margin: 0; /* Espacio externo en 0 */ 
+    padding: 0; /* Espacio interno en 0 */
+}
+
+.header {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #333333; /* Borde a forma de linea de seperacion */
+    padding: 20px;  
+    text-align: center; /* Centra los elementos hijos del header */
+    /* outline: 2px solid orange; */
+}
+
+.logo { /* div logo */
+    color: #d4af37;            
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Crea un espacio de 10px debajo del div logo */
+}
+
+.nav a { /* Elemento hijos de la nav-bar */
+    color: #e0e0e0; /* Text color de los elementos de la nav-bar */
+    font-weight: bold; /* Negrita */
+    margin: 20px; /* Espacio entre elementos hijos (top, left, bottom, right) */
+}
+
+.nav a:hover {
+    color: #d4af37; /* Pseudoclase */
+}
+
+.footer {
+    background-color: #1e1e1e;
+    border-top: 1px solid #333333;
+    text-align: center;
+    padding: 10px;
+    color: #a0a0a0;
+}
+
+.footer p {
+    margin: 10px; /* Espacio externo*/
+}
+
+/* Color para las fórmulas renderizadas por KaTeX */
+.katex {
+    color: #d4af37;
+    font-size: 1.1em; /* Unidad relativa al CSS interno de katex para las formulas*/
+}
+
+.container { /* main div */
+    max-width: 1000px; /* Ancho maximo */
+    margin: 30px auto; /* Auto (left&right) simula un centrado al tomar 1000px-viewport) */
+    padding: 0 20px; /* Espacio interno de 20 px a los lados */
+    /* outline: 2px solid pink; */
+}
+
+.page-title { /* Subtitulo */
+    text-align: center; /* Alinea el texto */
+    margin: 0px;
+    /* outline: 2px solid blue; */
+    
+} 
+
+.page-title h1 {
+    color: #d4af37;
+    margin: 0px;
+    /* outline: 2px solid white; */
+}
+
+.page-title p {
+    color: #a0a0a0;
+    margin: 0px;
+    margin-bottom: 20px;
+    /* outline: 2px solid red; */
+}
+
+.section-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 8px; /* bordes suaves redondeados de cada card */
+    padding: 25px;
+    margin-bottom: 30px;
+    /* outline: 2px solid green;  */
+}
+
+.section-title {
+    color: #d4af37;
+    border-bottom: 1px solid #333333;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    /* outline: 2px solid grey; */
+}
+
+.block {
+    background-color: #252525;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    /* outline: 2px solid red; */
+}
+
+.block h3 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* outline: 2px solid yellow; */
+}
+
+.sub-title {
+    color: #d4af37;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* outline: 2px solid brown;  */
+}
+
+.formula-list {
+    margin: 0;
+    padding-left: 20px;
+    /* outline: 2px solid blue;  */
+}
+
+.formula-list li {
+    margin-bottom: 8px;
+    /* outline: 2px solid red; */
+}
+
+.formula-highlight {
+    background-color: #1a1a1a;
+    border-left: 4px solid #d4af37;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    /* outline: 2px solid yellow; */
+}
