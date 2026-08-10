@@ -44,7 +44,7 @@ body { /* Propiedades heredades para todo el documento */
     margin: 10px; /* Espacio externo*/
 }
 
-/* Color para las fórmulas renderizadas por KaTeX */
+/* Color para las formulas renderizadas por KaTeX */
 .katex {
     color: #d4af37;
     font-size: 1.1em; /* Unidad relativa al CSS interno de katex para las formulas*/
