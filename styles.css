@@ -1,8 +1,7 @@
-/* Centra el contenedor en el medio de la pantalla */
-body {
-    background-color: #121212;
-    color: #e0e0e0;
-    font-family: sans-serif;
+body { /* Propiedades heredades para todo el documento */
+    background-color: #121212;   /* Fondo oscuro principal */
+    color: #e0e0e0;              /* Texto general gris claro */
+    font-family: "Comic Neue", cursive; /* Font importada de google fonts */
     text-align: center; /* Centra todo el texto y elementos inline */
 }
 
@@ -15,7 +14,7 @@ p {
     color: #aaaaaa;
 }
 
-/* Inputs y Botón alineados */
+/* Inputs y Boton alineados */
 input {
     background-color: #1e1e1e;
     color: #ffffff;
@@ -35,5 +34,5 @@ button {
 }
 
 a {
-    color: #3d8bfd;
+    color: orange;
 }
