@@ -1,0 +1,39 @@
+/* Centra el contenedor en el medio de la pantalla */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    text-align: center; /* Centra todo el texto y elementos inline */
+}
+
+/* Encabezados y texto */
+h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #aaaaaa;
+}
+
+/* Inputs y Botón alineados */
+input {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    width: 250px;
+    height: 30px;
+    text-align: center; /* Centra el texto que escribe el usuario */
+}
+
+button {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    width: 256px;
+    height: 35px;
+    cursor: pointer;
+}
+
+a {
+    color: #3d8bfd;
+}
