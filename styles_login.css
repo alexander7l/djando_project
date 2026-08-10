@@ -1,0 +1,38 @@
+body { /* Propiedades heredades para todo el documento */
+    background-color: #121212;   /* Fondo oscuro principal */
+    color: #e0e0e0;              /* Texto general gris claro */
+    font-family: "Comic Neue", cursive; /* Font importada de google fonts */
+    text-align: center; /* Centra todo el texto y elementos inline */
+}
+
+/* Encabezados y texto */
+h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #aaaaaa;
+}
+
+/* Inputs y Boton alineados */
+input {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    width: 250px;
+    height: 30px;
+    text-align: center; /* Centra el texto que escribe el usuario */
+}
+
+button {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    width: 256px;
+    height: 35px;
+    cursor: pointer;
+}
+
+a {
+    color: orange;
+}
